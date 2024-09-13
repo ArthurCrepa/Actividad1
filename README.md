@@ -1,10 +1,10 @@
-ACTIVIDAD1
+#ACTIVIDAD1
 ---
 ---
 
 En el presente repositorio se ha agregado el codigo fuente de "paint" 
-recuperado de: http://www.grantjenks.com/docs/freegames/paint.html . En el código original, podemos dibujar lineas (presionando "l") y cuadrados (presionando "s"),
-al mismo tiempo, somos capces de seleccionar 4 colores siendo: *Negro (presionando "K") , Rojo (presionando "R"), Verde (presionando "G") y Azul (presionando "B").*
+recuperado de: http://www.grantjenks.com/docs/freegames/paint.html . En el código original, podemos dibujar líneas (presionando "l") y cuadrados (presionando "s"),
+al mismo tiempo, somos capaces de seleccionar 4 colores siendo: *Negro (presionando "K") , Rojo (presionando "R"), Verde (presionando "G") y Azul (presionando "B").*
 
 donde se nos ha pedido realizar lo siguiente:
 
@@ -22,10 +22,11 @@ Explicaciones
 ***
 
 
-*Tercer Caso:* Se reutilizó el codigo de square y se agregaron medidas "width" y "height" considerando la formula:
-Perimetro = (2 x Base) + (2 x Altura). Se redujo la cantidad de veces que se repita el codigo de 4 a 2.
-Este dibujará un rectangulo según donde presione el usuario. Activamos esta figura seleccionando "r".
+*Tercer Caso:* Se reutilizó el código de square y se agregaron medidas "width" y "height" considerando la fórmula:
+Perímetro = (2 x Base) + (2 x Altura). Se redujo la cantidad de veces que se repita el código de 4 a 2.
+Este dibujará un rectángulo según dónde presione el usuario. Activamos esta figura seleccionando "r".
 
-*Cuarto Caso:* Tomando en cuenta que podemos rotar nuestra flecha, se reutilizó el codigo de square, reduciendo la cantidad de veces que se repita el codigo de 4 a 3. 
-Se ha aumentando el ángulo de rotación de 90° a 120° (considerando que la suma de los angulos interiores de un triángulo debe ser igual a 180°). 
-Se dibuja un triangulo equilatero del color seleccionado y según la distancia indicada por el usuario. Activamos esta figura seleccionando "t".
+*Cuarto Caso:* Tomando en cuenta que podemos rotar nuestra flecha, se reutilizó el código de square, reduciendo la cantidad de veces que se repita el código de 4 a 3. 
+Se ha aumentado el ángulo de rotación de 90° a 120° (considerando que la suma de los ángulos interiores de un triángulo debe ser igual a 180°). 
+Se dibuja un triángulo equilátero del color seleccionado y según la distancia indicada por el usuario. Activamos esta figura seleccionando "t".
+
