@@ -23,7 +23,8 @@ Explicaciones
 *Primer caso:* Para implementar el nuevo color que en este caso es el Purple, reulitizamos el codigo en la parte de onkey color y sustituimos un color 
 por el Purple agregando al final la letra P para hacer llamado de esta nueva acción
 
-*Segundo caso:* 
+*Segundo caso:* Implementamos el circle con la funcion que venia por default en la libreria de Turtle para mayor facilidad y al final
+cambiamos el nombre de Circle a Circle_shape para poder llamar a realizar la función
 
 *Tercer Caso:* Se reutilizó el código de square y se agregaron medidas "width" y "height" considerando la fórmula:
 Perímetro = (2 x Base) + (2 x Altura). Se redujo la cantidad de veces que se repita el código de 4 a 2.
