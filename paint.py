@@ -26,16 +26,14 @@ def circle_shape(start, end):
     up()  
     radius = (end.x - start.x)/2
     goto(start.x, start.y)
-
     down()
     begin_fill()
     
     circle(radius)
     end_fill()
 
-
 def rectangle(start, end):
-     """Draw rectangle from start to end."""
+    "Draw rectangle from start to end."
     up()
     goto(start.x, start.y)
     down()
@@ -52,14 +50,15 @@ def rectangle(start, end):
     
     end_fill()
 
-def triangle(start, end): 
-    """Draw triangle from start to end.""" 
+def triangle(start, end):
+    "Draw triangle from start to end."
     up()
     goto(start.x, start.y)
     down()
     begin_fill()
+    
     for count in range(3):
-        forward (end.x - start.x)
+        forward(end.x - start.x)
         left(120)
     
     end_fill()
@@ -90,10 +89,11 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
-onkey(lambda: color ('purple'),'P')
+onkey(lambda: color('purple'), 'P')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
-onkey(lambda: store('shape', circle_shape), 'c')
+onkey(lambda: store('shape', circle_shape), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
 done()
+
